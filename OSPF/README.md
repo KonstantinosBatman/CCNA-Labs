@@ -34,7 +34,7 @@ also connecting 2 end hosts (PCs) on different networks that are connected throu
 - PCs connected to the LAN subnets can ping across the network through OSPF routing.
 
 ## Key Commands Used
-- ROUTER 1 Configuartion
+- ROUTER 1 Configuration
 
 ```
 router ospf 1
