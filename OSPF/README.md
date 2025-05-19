@@ -28,6 +28,7 @@ also connecting 2 end hosts (PCs) on different networks that are connected throu
 
 ##  Configuration Highlights
 
+- All routers are configured in OSPF backbone area 0 for simplicity and to maintain proper OSPF design.
 - OSPF is configured on all routers with router IDs set explicitly.
 - Point-to-point links use /30 subnets between routers.
 - LAN interfaces (`G0/2` on Router 1 and Router 3) are configured as **passive interfaces** to prevent OSPF neighbor formation on those LAN ports while still advertising the connected networks.
@@ -73,3 +74,11 @@ network 10.0.14.0 0.0.0.3 area 0
 network 10.0.13.0 0.0.0.3 area 0
 router-id 4.4.4.4
 ```
+
+## Verification
+
+- Use `show ip ospf neighbor` on routers to confirm OSPF adjacencies.
+- Use `show ip route ospf` to check learned routes.
+- From PC1, ping PC2’s IP address to verify end-to-end connectivity.
+- Similarly, ping back from PC2 to PC1.
+
