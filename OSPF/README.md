@@ -42,7 +42,6 @@ network 10.0.11.0 0.0.0.3 area 0
 network 10.0.14.0 0.0.0.3 area 0
 network 192.168.1.0 0.0.0.255 area 0
 router-id 1.1.1.1
-network 1.1.1.1 0.0.0.0 area 0
 passive-interface G0/2
 ```
 
@@ -53,7 +52,6 @@ router ospf 1
 network 10.0.11.0 0.0.0.3 area 0
 network 10.0.12.0 0.0.0.3 area 0
 router-id 2.2.2.2
-network 2.2.2.2 0.0.0.0 area 0
 ```
 
 - ROUTER 3 Configuration
@@ -64,7 +62,6 @@ network 10.0.12.0 0.0.0.3 area 0
 network 10.0.13.0 0.0.0.3 area 0
 network 192.168.4.0 0.0.0.255 area 0
 router-id 3.3.3.3
-network 3.3.3.3 0.0.0.0 area 0
 passive-interface G0/2
 ```
 
@@ -75,5 +72,4 @@ router ospf 1
 network 10.0.14.0 0.0.0.3 area 0
 network 10.0.13.0 0.0.0.3 area 0
 router-id 4.4.4.4
-network 4.4.4.4 0.0.0.0 area 0
 ```
