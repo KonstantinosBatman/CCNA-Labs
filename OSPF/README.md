@@ -32,3 +32,6 @@ also connecting 2 end hosts (PCs) on different networks that are connected throu
 - Point-to-point links use /30 subnets between routers.
 - LAN interfaces (`G0/2` on Router 1 and Router 3) are configured as **passive interfaces** to prevent OSPF neighbor formation on those LAN ports while still advertising the connected networks.
 - PCs connected to the LAN subnets can ping across the network through OSPF routing.
+
+## Commands Used
+
