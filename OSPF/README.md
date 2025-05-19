@@ -82,4 +82,4 @@ router-id 4.4.4.4
 - From PC1, ping PC2’s IP address to verify end-to-end connectivity.
 - Similarly, ping back from PC2 to PC1.
 
-# Feel free to clone this project and modify the configurations to fit your own scenarios. Experimentation is key to mastering OSPF and networking in general!
+### Feel free to clone this project and modify the configurations to fit your own scenarios. Experimentation is key to mastering OSPF and networking in general!
