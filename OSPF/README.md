@@ -2,7 +2,7 @@
 
 - This is a practical OSPF lab designed to demonstrate basic OSPF configuration, neighbor formation, and route advertisement across four routers whilst 
 also connecting 2 end hosts (PCs) on different networks that are connected through the routers. 
-- The end goal is for the 2 end hosts to be able to communicate with eachother.
+- The end goal is for the 2 end hosts to be able to **communicate with eachother**.
 
 ## Network Topology & Addressing
 
@@ -33,5 +33,47 @@ also connecting 2 end hosts (PCs) on different networks that are connected throu
 - LAN interfaces (`G0/2` on Router 1 and Router 3) are configured as **passive interfaces** to prevent OSPF neighbor formation on those LAN ports while still advertising the connected networks.
 - PCs connected to the LAN subnets can ping across the network through OSPF routing.
 
-## Commands Used
+## Key Commands Used
+- ROUTER 1 Configuartion
 
+```
+router ospf 1
+network 10.0.11.0 0.0.0.3 area 0
+network 10.0.14.0 0.0.0.3 area 0
+network 192.168.1.0 0.0.0.255 area 0
+router-id 1.1.1.1
+network 1.1.1.1 0.0.0.0 area 0
+passive-interface G0/2
+```
+
+- ROUTER 2 Configuration
+
+```
+router ospf 1
+network 10.0.11.0 0.0.0.3 area 0
+network 10.0.12.0 0.0.0.3 area 0
+router-id 2.2.2.2
+network 2.2.2.2 0.0.0.0 area 0
+```
+
+- ROUTER 3 Configuration
+
+```
+router ospf 1
+network 10.0.12.0 0.0.0.3 area 0
+network 10.0.13.0 0.0.0.3 area 0
+network 192.168.4.0 0.0.0.255 area 0
+router-id 3.3.3.3
+network 3.3.3.3 0.0.0.0 area 0
+passive-interface G0/2
+```
+
+- ROUTER 4 Configuration
+
+```
+router ospf 1
+network 10.0.14.0 0.0.0.3 area 0
+network 10.0.13.0 0.0.0.3 area 0
+router-id 4.4.4.4
+network 4.4.4.4 0.0.0.0 area 0
+```
