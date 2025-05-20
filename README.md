@@ -13,9 +13,11 @@ This repository contains my networking projects where I experiment with various 
 - **Static Routing**  
   A project that covers static routing between multiple routers in Cisco Packet Tracer.
 
-- **OSPF Lab**
+- **OSPF Lab**   
   A practical project demonstrating OSPF configuration and routing across multiple routers.
    
+
+ 
  - Feel free to explore these projects and reach out if you have any questions!
 
 
