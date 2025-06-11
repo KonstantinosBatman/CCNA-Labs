@@ -1,5 +1,7 @@
 # Static Routing in Cisco Packet Tracer
 
+![Static Routing Topology](./Images/Static_Routing_Topology.PNG)
+
 ## Project Overview
 
 This project demonstrates how to configure **static routing** in a network using **Cisco Packet Tracer**. The network consists of 3 routers, 2 switches, and 2 PCs that are in different networks. The goal of the project is to configure static routes between the routers to enable communication between the two PCs.
