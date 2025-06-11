@@ -1,6 +1,6 @@
 # Basic VLAN Setup for IT, Sales, and HR
 
-[Basic VLAN Topology](./Images/basic_vlan_topology.PNG)
+![Basic VLAN Topology](./Images/basic_vlan_topology.PNG)
 
 **Project Description**:  
 This project demonstrates the configuration and management of three VLANs on a Cisco switch. The VLANs segment network traffic for three different departments: IT, Sales, and HR. The project ensures devices within the same VLAN can communicate, but there is no inter-VLAN routing, meaning devices in different VLANs are isolated.
