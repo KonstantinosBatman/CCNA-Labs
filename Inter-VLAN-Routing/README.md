@@ -1,6 +1,6 @@
 # Inter-VLAN Setup for IT, Sales, and HR
 
-![Inter-VLAN Network Diagram](./Images/VLAN_Topology.png)
+![Inter-VLAN Network Diagram](Inter-VLAN-Routing/Images/VLAN_Topology.PNG)
 
 **Project Description**:  
 This project demonstrates the configuration and management of Inter-VLAN Routing (IVR) between three VLANs: IT, Sales, and HR, using a Cisco router. The router performs the routing between VLANs, allowing devices on different VLANs to communicate with each other.
