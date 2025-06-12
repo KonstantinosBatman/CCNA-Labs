@@ -16,8 +16,10 @@ This repository contains my networking projects where I experiment with various 
 - **OSPF Lab**   
   A practical project demonstrating OSPF configuration and routing across multiple routers.
    
-
+- **HSRP Lab**   
+  A project demonstrating the setup and configuration of a high availability HSRP setup.
  
- - Feel free to explore these projects and reach out if you have any questions!
+ - Feel free to use/expiriment with these projects and reach out if you have any questions!
+
 
 
