@@ -63,3 +63,11 @@ interface GigabitEthernet0/0
  exit
 ip route 192.168.1.0 255.255.255.0 205.231.56.1
 ```
+
+## Verification
+
+- Use `show standby` on routers to confirm standby settings.
+- Use `show ip interface brief` on R1 and R2 to verify all interfaces are up and assigned correctly.
+- Ping from all PC's to the active router and standby router.
+
+### Feel free to clone this project and modify the configurations to fit your own scenarios.
