@@ -18,6 +18,9 @@ This repository contains my networking projects where I experiment with various 
    
 - **HSRP Lab**   
   A project demonstrating the setup and configuration of a high availability HSRP setup.
+
+- **DHCP & DNS Lab**
+  A project demonstrating basic DHCP and DNS configuration accross 2 networks.
  
  - Feel free to use/expiriment with these projects and reach out if you have any questions!
 
