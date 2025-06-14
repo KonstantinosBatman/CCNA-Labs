@@ -32,8 +32,8 @@ R1 provides dynamic IP addressing for two VLAN subnets:
 
 - DNS Server IP: `192.168.13.10`
 - Hostnames mapped (example):
-  - `pc1.local` → `172.16.1.x`
-  - `pc4.local` → `172.16.2.x`
+  - `PC1` → `172.16.1.2`
+  - `PC7` → `172.16.2.4`
 
 ### VLAN and Interface Configuration
 
@@ -51,9 +51,6 @@ Domain names resolve correctly using the DNS server
 Inter-VLAN routing works between VLAN 10 and VLAN 20
 
 
-
-- Add NAT for internet access simulation
-- Implement DHCP relay if DHCP server is on another network
-- Include domain name records for additional services (e.g., web server)
+- Feel free to use or modify this lab setup for your own practice.
 
 
