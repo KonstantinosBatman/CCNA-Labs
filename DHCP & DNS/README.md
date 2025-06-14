@@ -45,12 +45,12 @@ R1 provides dynamic IP addressing for two VLAN subnets:
 
 ## Verification Steps
 
-PCs successfully receive IP addresses via DHCP
-PCs can ping the default gateway and DNS server
-Domain names resolve correctly using the DNS server
-Inter-VLAN routing works between VLAN 10 and VLAN 20
+- PCs successfully receive IP addresses via DHCP
+- PCs can ping the default gateway and DNS server
+- Domain names resolve correctly using the DNS server
+- Inter-VLAN routing works between VLAN 10 and VLAN 20
 
 
-- Feel free to use or modify this lab setup for your own practice.
+Feel free to use or modify this lab setup for your own practice.
 
 
