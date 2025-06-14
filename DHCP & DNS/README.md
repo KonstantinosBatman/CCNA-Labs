@@ -51,6 +51,7 @@ R1 provides dynamic IP addressing for two VLAN subnets:
 - Inter-VLAN routing works between VLAN 10 and VLAN 20
 
 
-Feel free to use or modify this lab setup for your own practice.
+
+### Feel free to use or modify this lab setup for your own practice.
 
 
