@@ -10,7 +10,7 @@
 - **Router (R1)** acting as the **DHCP server** and **default gateway**
 - **DNS Server** on network `192.168.13.0/28` with IP `192.168.13.10`
 
-## ⚙️ Configuration Summary
+## Configuration Summary
 
 ### DHCP Setup (on Router R1)
 
