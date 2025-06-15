@@ -1,4 +1,4 @@
-# Cisco-Packet-Tracer-Projects [Konstantinos Batman]
+# Cisco-Packet-Tracer-Projects
 
 This repository contains my networking projects where I experiment with various network configurations and Cisco technologies.
 
