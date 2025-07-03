@@ -1,4 +1,4 @@
-# Cisco-Packet-Tracer-Projects
+# CCNA LABS
 
 This repository contains my networking projects where I experiment with various network configurations and Cisco technologies.
 
