@@ -4,12 +4,6 @@ This repository contains my networking projects where I experiment with various 
 
 ## Projects
 
-- **Basic VLAN Setup**  
-  A project showcasing the configuration of VLANs for network segmentation.
-
-- **IVR (Inter-VLAN-Routing)**  
-   A project demonstrating the setup and configuration of Inter-VLAN Routing to enable communication between different VLANs.
-
 - **Static Routing**  
   A project that covers static routing between multiple routers in Cisco Packet Tracer.
 
