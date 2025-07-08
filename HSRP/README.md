@@ -22,7 +22,7 @@ Two routers (R1 and R2) are configured in an HSRP group to provide gateway redun
 | PC0 - PC3 | `192.168.1.1` to `192.168.1.4` | LAN Hosts |
 
 
-## ⚙️ HSRP Configuration
+## HSRP Configuration
 
 ### R1 (Active Router)
 ```
