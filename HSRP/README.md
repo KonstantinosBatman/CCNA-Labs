@@ -5,7 +5,7 @@
 This lab demonstrates Hot Standby Router Protocol (HSRP) configuration for providing high availability in a network. 
 Two routers (R1 and R2) are configured in an HSRP group to provide gateway redundancy for a LAN segment.
 
-![HSRP Topology](./Images/HSRP_Topology.PNG)
+![HSRP Topology](./Images/HSRP_Topology.png)
 
 ## Topology
 
