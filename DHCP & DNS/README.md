@@ -1,6 +1,6 @@
 # DHCP & DNS GNS3 Lab
 
-This GNS3 lab demonstrates the configuration of DHCP and DNS services using a Cisco router (`SRV1`) to serve two VLANs. It includes basic inter-VLAN routing and end-to-end connectivity for client devices.
+This GNS3 lab demonstrates the configuration of DHCP and DNS services using a Cisco router (`SRV1`) to serve two VLANs.
 
 ![DHCP & DNS Lab Topology](./Images/DHCP_DNS_Topology.png)
 
