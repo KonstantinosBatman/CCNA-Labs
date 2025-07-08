@@ -61,4 +61,12 @@ interface g0/0.20
 ![R1 Show ip interface brief](./Images/R1_show_ip_interface_brief.png)
 
 
+## Verification
 
+- Use `ip dhcp` on the PC's to acquire an IP address from the DHCP.
+- Use `ping clouflare.com` pm the PC's to test the DNS queries.
+- Use `show ip dhcp binding` on the Server to list all of the DHCP leases.
+
+![PC1 Query](./Images/PC1_DNS_Query.png)
+
+### Feel free to clone this project and modify the configurations to fit your own scenarios.
