@@ -36,6 +36,7 @@ interface GigabitEthernet0/1
  exit
 ip route 0.0.0.0 0.0.0.0 203.30.78.2
 ```
+![R1 Show Standby](./Images/R1_show_standby.png)
 
 ### Main Internet Line Router
 ```
@@ -55,6 +56,8 @@ interface GigabitEthernet0/1
  exit
 ip route 0.0.0.0 0.0.0.0 205.231.56.2
 ```
+
+![R2 Show Standby](./Images/R2_show_standby.png)
 
 ### Backup Internet Line Router
 ```
