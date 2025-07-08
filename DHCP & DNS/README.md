@@ -8,11 +8,11 @@ This GNS3 lab demonstrates the configuration of DHCP and DNS services using a Ci
 
 - **SRV1 (Cisco Router)**  
   - Provides **DHCP** and **DNS** services.
-  - IP: `1.1.1.1/30`
+  - IP: 1.1.1.1/30
 
 - **R1 (Router)**  
   - Acts as a gateway between VLANs and the server.
-  - IP: `1.1.1.2/30`
+  - IP: 1.1.1.2/30
 
 - **SW1**  
   - Manages VLAN segmentation and port-based assignments.
@@ -24,12 +24,6 @@ This GNS3 lab demonstrates the configuration of DHCP and DNS services using a Ci
 - **VLAN 20 (172.16.2.0/24)**  
   - PCs: PC4, PC5, PC6
 
-##  Goals
-
-- Dynamically assign IP addresses to PCs in both VLANs using DHCP.
-- Enable name resolution for clients using the DNS service.
-- Establish connectivity between VLANs and the server.
-- Practice DHCP, DNS, and inter-VLAN routing concepts.
 
 ## Important Configuration
 
