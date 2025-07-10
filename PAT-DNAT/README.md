@@ -2,16 +2,8 @@
 
 ![Lab Topology](./Images/!PAT-DNAT_Topology.png)
 
-This project demonstrates a multi-tier NAT (Network Address Translation) setup using GNS3. It includes both **PAT (Port Address Translation)** at the enterprise edge and **Dynamic PAT** using an IP pool at the ISP level. This is a hands-on lab to help you understand NAT behaviors in enterprise-to-internet routing scenarios.
+This project demonstrates a multi-tier NAT setup using GNS3. It includes both **PAT** at the enterprise edge and **Dynamic NAT** using a pool at the ISP level.
 
----
-
-## Lab Overview
-
-- Internal users (PC1-PC4) reside in separate VLANs.
-- Traffic from internal VLANs is translated using PAT on **R1**.
-- The **LOCAL-ISP** performs **dynamic PAT** using a pool of public IPs.
-- The **TIER1-ISP** connects to a simulated **Internet**.
 
 ---
 
