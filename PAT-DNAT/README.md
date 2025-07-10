@@ -83,7 +83,14 @@ ip nat inside source list 1 pool POOL1
 
 ---
 
-### Final Notes
+# ****Important Note****
+****If you want open my gns3 file and test out the lab for yourself, you'll need to obtain the Cisco IOS Images that I used for this lab****, which are:
+
+Switch Image: vios_l2-adventerprisek9-m.SSA.high_iron_20180619.qcow2
+
+Router Image: c7200-adventerprisek9-mz.124-24.T5.image
+
+# Final Notes
 
 **Thank you for reviewing this project.**
 You are welcome to use, adapt, or extend this project for educational or lab purposes.
