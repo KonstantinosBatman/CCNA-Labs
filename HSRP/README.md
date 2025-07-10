@@ -1,29 +1,13 @@
-### HSRP Lab
+# HSRP Lab
+
+![HSRP Topology](./Images/HSRP_Topology.png)
 
 ## Overview
 
 This lab demonstrates Hot Standby Router Protocol (HSRP) configuration for providing high availability in a network. 
 Two routers (R1 and R2) are configured in an HSRP group to provide gateway redundancy for a LAN segment.
 
-![HSRP Topology](./Images/HSRP_Topology.png)
-
-## Topology
-
-- **LAN Network**: `192.168.1.0/24`
-- **Virtual Gateway IP (HSRP)**: `192.168.1.254`
-- **Default Gateway for PCs**: `192.168.1.254`
-
-### Devices
-
-| Device | Interface IP | Role |
-|--------|--------------|------|
-| R1 | `192.168.1.253` (LAN), `203.30.78.1` (Main Internet) | **HSRP Active** |
-| R2 | `192.168.1.252` (LAN), `205.231.56.1` (Backup Internet) | **HSRP Standby** |
-| PC0 - PC3 | `192.168.1.1` to `192.168.1.4` | LAN Hosts |
-
-
 ## HSRP Configuration
-
 ### R1 (Active Router)
 ```
 interface GigabitEthernet0/0
@@ -38,6 +22,8 @@ ip route 0.0.0.0 0.0.0.0 203.30.78.2
 ```
 ![R1 Show Standby](./Images/R1_show_standby.png)
 
+---
+
 ### Main Internet Line Router
 ```
 interface GigabitEthernet0/0
@@ -45,6 +31,8 @@ interface GigabitEthernet0/0
  exit
 ip route 192.168.1.0 255.255.255.0 203.30.78.1
 ```
+
+---
 
 ### R2 (Standby Router)
 ```
@@ -59,13 +47,7 @@ ip route 0.0.0.0 0.0.0.0 205.231.56.2
 
 ![R2 Show Standby](./Images/R2_show_standby.png)
 
-### Backup Internet Line Router
-```
-interface GigabitEthernet0/0
- ip address 205.231.56.2 255.255.255.252
- exit
-ip route 192.168.1.0 255.255.255.0 205.231.56.1
-```
+---
 
 ## Verification
 
@@ -73,4 +55,7 @@ ip route 192.168.1.0 255.255.255.0 205.231.56.1
 - Use `show ip interface brief` on R1 and R2 to verify all interfaces are up and assigned correctly.
 - Ping from all PC's to the active router and standby router.
 
-### Feel free to clone this project and modify the configurations to fit your own scenarios.
+---
+
+## **Thank you for reviewing this project.** 
+For questions, suggestions, or improvements, feel free to contribute or open an issue.
