@@ -1,6 +1,7 @@
 # CCNA LABS
 
 This repository contains my networking projects where I experiment with various network configurations and Cisco technologies.
+---
 If you want to reach out to me for any suggestions or questions, message me on ****discord (@Konstantinoz)****
 
 ## Projects
