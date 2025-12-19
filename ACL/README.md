@@ -67,4 +67,34 @@ R2(config)# int fa2/0
 R2(config-if)# ip access-group HR_TO_FILE_SERVER in
 ```
 
+---
+
+*****Sadly I couldn't test HTTP or HTTPS connectivity since the VPCs lightweight CLI-Based*****
+
+---
+
 ![R2 Access Lists](./Images/R2_do_show_ip_access_lists.png)
+
+---
+
+## We are finished with the configurations, now let's test if the ACLs are in effect with some pings.
+
+### IT to Accounting ping
+![PC1 to Accounting ping](./Images/PC1(IT)_ping_to_accounting.png)
+
+### Accounting to File Server ping
+![Accounting to File Server ping](./Images/PC3(Accounting)_ping_to_file_server.png)
+
+### HR to File Server ping
+![HR to File Server ping](./Images/PC6(HR)_ping_to_file_server.png)
+
+---
+
+## ACL Matches after the pings
+
+![R1 ACL Matches](./Images/R1_show_access-lists.png)
+
+
+![R2 ACL Matches](./Images/R2_show_access-lists.png)
+
+
