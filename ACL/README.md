@@ -69,7 +69,7 @@ R2(config-if)# ip access-group HR_TO_FILE_SERVER in
 
 ---
 
-*****Sadly I couldn't test HTTP or HTTPS connectivity since the VPCs lightweight CLI-Based*****
+***⚠️ Sadly I couldn't test HTTP or HTTPS connectivity since the VPCs lightweight CLI-Based only***
 
 ---
 
@@ -97,4 +97,10 @@ R2(config-if)# ip access-group HR_TO_FILE_SERVER in
 
 ![R2 ACL Matches](./Images/R2_show_access-lists.png)
 
+---
 
+# Final Notes
+
+**Thank you for reviewing this project.**
+- You are welcome to use, adapt, or extend this project for educational or lab purposes.
+- For questions, suggestions, or improvements, feel free to message me on Discord (@Konstantinoz).
