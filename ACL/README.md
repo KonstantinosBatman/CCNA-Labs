@@ -52,8 +52,8 @@ R1(config-if) ip access-group ACCOUNTING_NO_HTTP_HTTPS in
 ## ACL Configuration on ***R2*** (Blocking access for Accounting to the File Server)
 ```shell
 R2(config)# ip access-list standard ACCOUNTING_TO_FILE_SERVER
-R2(config-nacl-stnd)# deny 192.168.2.0 0.0.0.255
-R2(config-nacl-stnd)# permit any
+R2(config-nacl-std)# deny 192.168.2.0 0.0.0.255
+R2(config-nacl-std)# permit any
 R2(config)# int fa2/0
 R2(config-if)# ip access-group ACCOUNTING_TO_FILE_SERVER out
 ```
