@@ -69,7 +69,7 @@ R2(config-if)# ip access-group HR_TO_FILE_SERVER in
 
 ---
 
-***⚠️ Sadly I couldn't test HTTP or HTTPS connectivity since the VPCs lightweight CLI-Based only***
+***⚠️ Sadly I couldn't test HTTP or HTTPS connectivity since the VPCs are lightweight CLI-Based only***
 
 ---
 
